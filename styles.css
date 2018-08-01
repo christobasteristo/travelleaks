@@ -1,83 +1,43 @@
-.my_class {color: red;}
+p.my_class {color: white}
 
-h1 {color: green;}
+h1 {color: white;}
+h1 {text-align: center}
+h2 {color: white}
+h2 {text-align: center}
+h3 {color: white}
 
-h2 {color: green}
+p {text-align: center}
+p.white {color: white}
+
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:230px;
+    width: 6em
+}
+
 
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
-
-/* DivTable.com */
-.divTable{
-	display: table;
-	width: 100%;
-}
-.divTableRow {
-	display: table-row;
-}
-.divTableHeading {
-	background-color: #EEE;
-	display: table-header-group;
-}
-.divTableCell, .divTableHead {
-	border: 1px solid #999999;
-	display: table-cell;
-	padding: 3px 10px;
-}
-.divTableHeading {
-	background-color: #EEE;
-	display: table-header-group;
-	font-weight: bold;
-}
-.divTableFoot {
-	background-color: #EEE;
-	display: table-footer-group;
-	font-weight: bold;
-}
-.divTableBody {
-	display: table-row-group;
+.counter-item {
+  text-align: center
+  color: white;
 }
 
-
-table.greyGridTable {
-  border: 2px solid #FFFFFF;
+.header-img {
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
-  text-align: center;
-  border-collapse: collapse;
-}
-table.greyGridTable td, table.greyGridTable th {
-  border: 1px solid #FFFFFF;
-  padding: 3px 4px;
-}
-table.greyGridTable tbody td {
-  font-size: 13px;
-}
-table.greyGridTable td:nth-child(even) {
-  background: #EBEBEB;
-}
-table.greyGridTable thead {
-  background: #FFFFFF;
-  border-bottom: 4px solid #333333;
-}
-table.greyGridTable thead th {
-  font-size: 15px;
-  font-weight: bold;
-  color: #333333;
-  text-align: center;
-  border-left: 2px solid #333333;
-}
-table.greyGridTable thead th:first-child {
-  border-left: none;
+  height: auto;
+  display: block;
 }
 
-table.greyGridTable tfoot {
-  font-size: 14px;
-  font-weight: bold;
-  color: #333333;
-  border-top: 4px solid #333333;
-}
-table.greyGridTable tfoot td {
-  font-size: 14px;
+body {
+  background-image: url("pexels-photo-793166.jpeg");
+  background-repeat:no-repeat;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
 }
